@@ -8,7 +8,9 @@
     "lint": "standard --format db.js",
     "start": "node db.js",
     "test": "jasmine-node spec/",
-    "watch": "jasmine-node spec/ --autotest --watch --growl"
+    "watch": "jasmine-node spec/ --autotest --watch --growl",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +21,8 @@
     "faker": "^3.0.1",
     "lodash": "^3.10.1",
     "mongoose": "^4.3.3",
-    "randexp": "^0.4.2"
+    "randexp": "^0.4.2",
+    "snyk": "^1.17.0"
   },
   "devDependencies": {
     "pre-commit": "^1.1.2",
@@ -27,5 +30,6 @@
   },
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "snyk": true
 }
