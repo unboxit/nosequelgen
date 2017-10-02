@@ -16,17 +16,17 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "chance": "^0.8.0",
+    "chance": "^1.0.11",
     "dreamjs": "^0.1.5",
-    "faker": "^3.0.1",
-    "lodash": "^3.10.1",
-    "mongoose": "^4.3.3",
-    "randexp": "^0.4.2",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.14",
+    "randexp": "^0.4.6",
     "snyk": "^1.41.1"
   },
   "devDependencies": {
     "pre-commit": "^1.1.2",
-    "standard": "^5.4.1"
+    "standard": "^10.0.3"
   },
   "pre-commit": [
     "lint"
