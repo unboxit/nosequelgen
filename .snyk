@@ -1,6 +1,14 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:minimatch:20160620':
     - dreamjs > mocha > glob > minimatch:
         patched: '2016-07-11T03:13:21.844Z'
+  'npm:debug:20170905':
+    - dreamjs > mocha > debug:
+        patched: '2018-01-19T09:53:06.579Z'
+  'npm:ms:20170412':
+    - dreamjs > mocha > debug > ms:
+        patched: '2018-01-19T09:53:06.579Z'
