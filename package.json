@@ -17,10 +17,9 @@
   "license": "MIT",
   "dependencies": {
     "chance": "^1.0.11",
-    "dreamjs": "^0.1.5",
     "faker": "^4.1.0",
     "lodash": "^4.17.4",
-    "mongoose": "^4.11.14",
+    "mongoose": "^5.0.1",
     "randexp": "^0.4.6",
     "snyk": "^1.41.1"
   },
