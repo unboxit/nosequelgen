@@ -20,7 +20,7 @@
     "faker": "^4.1.0",
     "lodash": "^4.17.4",
     "mongoose": "^5.0.1",
-    "randexp": "^0.4.6",
+    "randexp": "^0.5.0",
     "snyk": "^1.41.1"
   },
   "devDependencies": {
