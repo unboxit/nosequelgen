@@ -18,7 +18,7 @@
   "dependencies": {
     "chance": "^1.0.18",
     "faker": "^4.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongoose": "^5.9.10",
     "randexp": "^0.4.9",
     "snyk": "^1.124.1"
